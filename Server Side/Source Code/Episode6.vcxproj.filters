@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Episode 6">
+      <UniqueIdentifier>{b79033d2-2d0d-48f7-aacc-b83d4d80a6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Quest">
+      <UniqueIdentifier>{98c8e867-0c20-4f0a-a5c4-633bbf7fd447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Trade">
+      <UniqueIdentifier>{faf9be2f-c979-4ebc-a6c6-ac2c08652752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Creation">
+      <UniqueIdentifier>{42c80034-dc94-48a0-bace-e23f9a1446b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Slot">
+      <UniqueIdentifier>{793ebb58-180c-46a9-b465-d9233c2db0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Itemmall">
+      <UniqueIdentifier>{858ee394-438b-4a2a-bc4e-b2f1ecf7d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Episode 6\Mounts">
+      <UniqueIdentifier>{4e0ae7eb-54b8-4c76-a740-9a89fe942250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hook.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewSlots.cpp">
+      <Filter>Source Files\Episode 6</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowStats.cpp">
+      <Filter>Source Files\Episode 6</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmButton.cpp">
+      <Filter>Source Files\Episode 6\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CharCreation.cpp">
+      <Filter>Source Files\Episode 6\Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionScreen.cpp">
+      <Filter>Source Files\Episode 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source Files\Episode 6\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="slot.cpp">
+      <Filter>Source Files\Episode 6\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMall.cpp">
+      <Filter>Source Files\Episode 6\Itemmall</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaoticSquare.cpp">
+      <Filter>Source Files\Episode 6\Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="perfectlapisia.cpp">
+      <Filter>Source Files\Episode 6\Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>Source Files\Episode 6\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="mounts.cpp">
+      <Filter>Source Files\Episode 6\Mounts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

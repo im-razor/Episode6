@@ -1,0 +1,3 @@
+- Enchant damage fix
+- HP Bug fix
+- not need CustomGame.dll
